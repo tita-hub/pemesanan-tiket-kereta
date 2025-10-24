@@ -13,8 +13,8 @@ public class AplikasiPemesananTiket {
     public void inisialisasiData() {
         // Data dummy
         daftarPetugas.add(new Petugas("P1", "Admin", "admin", "pass"));
-        daftarPenumpang.add(new Penumpang("PNP1", "Ahmad Rizki", "3201011234567890", "081298765432"));
-        daftarKereta.add(new Kereta("K1", "Argo Parahyangan", "Eksekutif", 50));
+        daftarPenumpang.add(new Penumpang("PNP1", "tita", "3201011234567890", "081298765432"));
+        daftarKereta.add(new Kereta("K1", "Argo Bromo Anggrek", "Eksekutif", 50));
         daftarJadwal.add(new Jadwal("JDW1", daftarKereta.get(0), "Bandung", "Jakarta", "2025-10-19", "06:00", 150000));
     }
     
